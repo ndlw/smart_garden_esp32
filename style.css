@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0 auto;
+    width: 980px;
+}
+/* =============HEADER============ */
+header{
+    height: 100px;
+    background-color: #cb7802;
+}
+
+.logo{
+    padding: 0 25px;
+}
+/* ==========NAVIGATION============== */
+nav{
+    height: 37px;
+    background-color: #272f54;
+}
+#wp-nav{
+    line-height: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+#wp-nav ul{
+    display: flex;
+    list-style: none;
+}
+#wp-nav ul li{
+    padding: 0 25px 0 25px;
+}
+
+#wp-nav ul li a{
+    color: white;
+
+}
+
+#wp-nav input{
+    height: 22px;
+    width: 200px;
+    border: solid gray 1px;
+}
+
+#wp-nav button{
+    height: 22px;
+    width: 90px;
+    margin-top: 7.5px;
+    margin-right: 5px;
+    line-height: 22px;
+    border: solid white 1px;
+    background-color: #272f54;
+    color: white;
+}
+/* =============slider============= */
+#slider{
+    margin-top: 10px;
+}
+
+/* ==============ARTICLE============== */
+article{
+    
+}
+
+#wp-article{
+    display: flex;
+    justify-content: space-between;
+}
+
+article h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0px 20px 0;
+}
+
+article .new_list{
+   padding: 10px 20px;
+   overflow: hidden;
+    width: 307px;
+    height: 360px;
+    border: solid gray 1px;
+}
+
+article .new_list h4{
+    color: #cb7802;
+}
+
+footer{
+    background-color: #272f54;
+    color: white;   
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 50px;
+}
